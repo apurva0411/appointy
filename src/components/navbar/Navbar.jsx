@@ -14,7 +14,7 @@ const Navbar = () => {
        <>
          <nav className='navbar'>
            <Link to='/' className='navbar-logo'>
-             <img src={ logo } alt='logo'></img>
+             <img src={ logo } alt='logo' className='logo'></img>
            </Link>
            <div className='menu-icon' onclick={handleClick}>
              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -27,7 +27,7 @@ const Navbar = () => {
              </li>
              <li className='nav-item'>
                <Link to='/aboutUs' className='nav-links' onClick={closeMobileMenu}>
-                 about us
+                 About us
                </Link>
              </li>
              <li className='nav-item'>

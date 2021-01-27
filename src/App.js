@@ -7,6 +7,9 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Switch>
+        <Route path='/' component={Home}/>
+      </Switch>
     </Router>
   );
 }
